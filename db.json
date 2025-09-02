@@ -1,84 +1,547 @@
 {
   "hotels": [
-    { "id": 1, "name": "Hotel Roma", "city": "Roma", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=1", "description": "Situato nel cuore di Roma, vicino ai principali monumenti. Camere moderne e confortevoli." },
-    { "id": 2, "name": "Grand Milano", "city": "Milano", "stars": 5, "imageUrl": "https://picsum.photos/400/300?random=2", "description": "Hotel elegante a Milano, perfetto per viaggi d'affari e shopping. Servizi di lusso e SPA." },
-    { "id": 3, "name": "Torino Inn", "city": "Torino", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=3", "description": "Accogliente hotel a Torino, ideale per famiglie e viaggiatori in cerca di comfort a prezzi convenienti." },
-    { "id": 4, "name": "Hotel Venezia", "city": "Venezia", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=4", "description": "Situato sul Canal Grande, camere eleganti con vista sulla città." },
-    { "id": 5, "name": "Florence Inn", "city": "Firenze", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=5", "description": "Accogliente hotel nel centro di Firenze, vicino al Duomo." },
-    { "id": 6, "name": "Napoli Palace", "city": "Napoli", "stars": 5, "imageUrl": "https://picsum.photos/400/300?random=6", "description": "Hotel di lusso con vista sul Vesuvio e sul Golfo di Napoli." },
-    { "id": 7, "name": "Bologna Central", "city": "Bologna", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=7", "description": "Comodo hotel vicino alla stazione, ideale per visitare Bologna." },
-    { "id": 8, "name": "Verona Suites", "city": "Verona", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=8", "description": "Eleganti suite nel cuore di Verona, vicino all'Arena." },
-    { "id": 9, "name": "Genova Marina", "city": "Genova", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=9", "description": "Hotel accogliente vicino al porto di Genova." },
-    { "id": 10, "name": "Palermo Resort", "city": "Palermo", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=10", "description": "Resort elegante con piscina e vista sul mare a Palermo." },
-    { "id": 11, "name": "Cagliari Bay", "city": "Cagliari", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=11", "description": "Hotel con vista sulla baia di Cagliari, camere confortevoli." },
-    { "id": 12, "name": "Bari Palace", "city": "Bari", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=12", "description": "Hotel elegante nel centro di Bari, vicino al lungomare." },
-    { "id": 13, "name": "Trieste Grand", "city": "Trieste", "stars": 5, "imageUrl": "https://picsum.photos/400/300?random=13", "description": "Hotel di lusso con camere vista mare a Trieste." },
-    { "id": 14, "name": "Perugia Inn", "city": "Perugia", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=14", "description": "Piccolo hotel nel centro storico di Perugia." },
-    { "id": 15, "name": "Pisa Tower Hotel", "city": "Pisa", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=15", "description": "Hotel elegante a pochi passi dalla Torre di Pisa." },
-    { "id": 16, "name": "Lucca Garden", "city": "Lucca", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=16", "description": "Hotel immerso nel verde con camere confortevoli." },
-    { "id": 17, "name": "Siena Palace", "city": "Siena", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=17", "description": "Hotel elegante nel cuore di Siena." },
-    { "id": 18, "name": "Rimini Beach", "city": "Rimini", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=18", "description": "Hotel sul mare di Rimini, camere con balcone." },
-    { "id": 19, "name": "Brescia Central", "city": "Brescia", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=19", "description": "Hotel comodo vicino al centro storico di Brescia." },
-    { "id": 20, "name": "Padova Inn", "city": "Padova", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=20", "description": "Hotel elegante vicino alla Cappella degli Scrovegni." },
-    { "id": 21, "name": "Reggio Emilia Palace", "city": "Reggio Emilia", "stars": 3, "imageUrl": "https://picsum.photos/400/300?random=21", "description": "Piccolo hotel nel centro di Reggio Emilia." },
-    { "id": 22, "name": "Parma Grand", "city": "Parma", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=22", "description": "Hotel elegante nel cuore di Parma." },
-    { "id": 23, "name": "Bolzano Suites", "city": "Bolzano", "stars": 4, "imageUrl": "https://picsum.photos/400/300?random=23", "description": "Suite moderne vicino al centro di Bolzano." }
+    {
+      "id": 1,
+      "name": "Hotel Roma",
+      "city": "Roma",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=1",
+      "description": "Situato nel cuore di Roma, vicino ai principali monumenti. Camere moderne e confortevoli."
+    },
+    {
+      "id": 2,
+      "name": "Grand Milano",
+      "city": "Milano",
+      "stars": 5,
+      "imageUrl": "https://picsum.photos/400/300?random=2",
+      "description": "Hotel elegante a Milano, perfetto per viaggi d'affari e shopping. Servizi di lusso e SPA."
+    },
+    {
+      "id": 3,
+      "name": "Torino Inn",
+      "city": "Torino",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=3",
+      "description": "Accogliente hotel a Torino, ideale per famiglie e viaggiatori in cerca di comfort a prezzi convenienti."
+    },
+    {
+      "id": 4,
+      "name": "Hotel Venezia",
+      "city": "Venezia",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=4",
+      "description": "Situato sul Canal Grande, camere eleganti con vista sulla città."
+    },
+    {
+      "id": 5,
+      "name": "Florence Inn",
+      "city": "Firenze",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=5",
+      "description": "Accogliente hotel nel centro di Firenze, vicino al Duomo."
+    },
+    {
+      "id": 6,
+      "name": "Napoli Palace",
+      "city": "Napoli",
+      "stars": 5,
+      "imageUrl": "https://picsum.photos/400/300?random=6",
+      "description": "Hotel di lusso con vista sul Vesuvio e sul Golfo di Napoli."
+    },
+    {
+      "id": 7,
+      "name": "Bologna Central",
+      "city": "Bologna",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=7",
+      "description": "Comodo hotel vicino alla stazione, ideale per visitare Bologna."
+    },
+    {
+      "id": 8,
+      "name": "Verona Suites",
+      "city": "Verona",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=8",
+      "description": "Eleganti suite nel cuore di Verona, vicino all'Arena."
+    },
+    {
+      "id": 9,
+      "name": "Genova Marina",
+      "city": "Genova",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=9",
+      "description": "Hotel accogliente vicino al porto di Genova."
+    },
+    {
+      "id": 10,
+      "name": "Palermo Resort",
+      "city": "Palermo",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=10",
+      "description": "Resort elegante con piscina e vista sul mare a Palermo."
+    },
+    {
+      "id": 11,
+      "name": "Cagliari Bay",
+      "city": "Cagliari",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=11",
+      "description": "Hotel con vista sulla baia di Cagliari, camere confortevoli."
+    },
+    {
+      "id": 12,
+      "name": "Bari Palace",
+      "city": "Bari",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=12",
+      "description": "Hotel elegante nel centro di Bari, vicino al lungomare."
+    },
+    {
+      "id": 13,
+      "name": "Trieste Grand",
+      "city": "Trieste",
+      "stars": 5,
+      "imageUrl": "https://picsum.photos/400/300?random=13",
+      "description": "Hotel di lusso con camere vista mare a Trieste."
+    },
+    {
+      "id": 14,
+      "name": "Perugia Inn",
+      "city": "Perugia",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=14",
+      "description": "Piccolo hotel nel centro storico di Perugia."
+    },
+    {
+      "id": 15,
+      "name": "Pisa Tower Hotel",
+      "city": "Pisa",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=15",
+      "description": "Hotel elegante a pochi passi dalla Torre di Pisa."
+    },
+    {
+      "id": 16,
+      "name": "Lucca Garden",
+      "city": "Lucca",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=16",
+      "description": "Hotel immerso nel verde con camere confortevoli."
+    },
+    {
+      "id": 17,
+      "name": "Siena Palace",
+      "city": "Siena",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=17",
+      "description": "Hotel elegante nel cuore di Siena."
+    },
+    {
+      "id": 18,
+      "name": "Rimini Beach",
+      "city": "Rimini",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=18",
+      "description": "Hotel sul mare di Rimini, camere con balcone."
+    },
+    {
+      "id": 19,
+      "name": "Brescia Central",
+      "city": "Brescia",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=19",
+      "description": "Hotel comodo vicino al centro storico di Brescia."
+    },
+    {
+      "id": 20,
+      "name": "Padova Inn",
+      "city": "Padova",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=20",
+      "description": "Hotel elegante vicino alla Cappella degli Scrovegni."
+    },
+    {
+      "id": 21,
+      "name": "Reggio Emilia Palace",
+      "city": "Reggio Emilia",
+      "stars": 3,
+      "imageUrl": "https://picsum.photos/400/300?random=21",
+      "description": "Piccolo hotel nel centro di Reggio Emilia."
+    },
+    {
+      "id": 22,
+      "name": "Parma Grand",
+      "city": "Parma",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=22",
+      "description": "Hotel elegante nel cuore di Parma."
+    },
+    {
+      "id": 23,
+      "name": "Bolzano Suites",
+      "city": "Bolzano",
+      "stars": 4,
+      "imageUrl": "https://picsum.photos/400/300?random=23",
+      "description": "Suite moderne vicino al centro di Bolzano."
+    }
   ],
   "rooms": [
-    { "id": 1, "hotelId": 1, "number": "101", "type": "singola", "price": 80 },
-    { "id": 2, "hotelId": 1, "number": "102", "type": "doppia", "price": 120 },
-    { "id": 3, "hotelId": 2, "number": "201", "type": "suite", "price": 250 },
-    { "id": 4, "hotelId": 2, "number": "202", "type": "doppia", "price": 150 },
-    { "id": 5, "hotelId": 3, "number": "301", "type": "singola", "price": 70 },
-    { "id": 6, "hotelId": 4, "number": "401", "type": "singola", "price": 90 },
-    { "id": 7, "hotelId": 4, "number": "402", "type": "doppia", "price": 140 },
-    { "id": 8, "hotelId": 5, "number": "501", "type": "singola", "price": 75 },
-    { "id": 9, "hotelId": 5, "number": "502", "type": "doppia", "price": 120 },
-    { "id": 10, "hotelId": 6, "number": "601", "type": "suite", "price": 260 },
-    { "id": 11, "hotelId": 6, "number": "602", "type": "doppia", "price": 150 },
-    { "id": 12, "hotelId": 7, "number": "701", "type": "singola", "price": 80 },
-    { "id": 13, "hotelId": 7, "number": "702", "type": "doppia", "price": 130 },
-    { "id": 14, "hotelId": 8, "number": "801", "type": "suite", "price": 220 },
-    { "id": 15, "hotelId": 8, "number": "802", "type": "doppia", "price": 140 },
-    { "id": 16, "hotelId": 9, "number": "901", "type": "singola", "price": 70 },
-    { "id": 17, "hotelId": 9, "number": "902", "type": "doppia", "price": 120 },
-    { "id": 18, "hotelId": 10, "number": "1001", "type": "suite", "price": 200 },
-    { "id": 19, "hotelId": 10, "number": "1002", "type": "doppia", "price": 130 },
-    { "id": 20, "hotelId": 11, "number": "1101", "type": "singola", "price": 80 },
-    { "id": 21, "hotelId": 11, "number": "1102", "type": "doppia", "price": 120 },
-    { "id": 22, "hotelId": 12, "number": "1201", "type": "suite", "price": 240 },
-    { "id": 23, "hotelId": 12, "number": "1202", "type": "doppia", "price": 150 },
-    { "id": 24, "hotelId": 13, "number": "1301", "type": "suite", "price": 260 },
-    { "id": 25, "hotelId": 13, "number": "1302", "type": "doppia", "price": 150 },
-    { "id": 26, "hotelId": 14, "number": "1401", "type": "singola", "price": 70 },
-    { "id": 27, "hotelId": 14, "number": "1402", "type": "doppia", "price": 120 },
-    { "id": 28, "hotelId": 15, "number": "1501", "type": "suite", "price": 220 },
-    { "id": 29, "hotelId": 15, "number": "1502", "type": "doppia", "price": 140 },
-    { "id": 30, "hotelId": 16, "number": "1601", "type": "singola", "price": 75 },
-    { "id": 31, "hotelId": 16, "number": "1602", "type": "doppia", "price": 130 },
-    { "id": 32, "hotelId": 17, "number": "1701", "type": "suite", "price": 230 },
-    { "id": 33, "hotelId": 17, "number": "1702", "type": "doppia", "price": 140 },
-    { "id": 34, "hotelId": 18, "number": "1801", "type": "singola", "price": 70 },
-    { "id": 35, "hotelId": 18, "number": "1802", "type": "doppia", "price": 120 },
-    { "id": 36, "hotelId": 19, "number": "1901", "type": "singola", "price": 75 },
-    { "id": 37, "hotelId": 19, "number": "1902", "type": "doppia", "price": 130 },
-    { "id": 38, "hotelId": 20, "number": "2001", "type": "suite", "price": 220 },
-    { "id": 39, "hotelId": 20, "number": "2002", "type": "doppia", "price": 140 },
-    { "id": 40, "hotelId": 21, "number": "2101", "type": "singola", "price": 70 },
-    { "id": 41, "hotelId": 21, "number": "2102", "type": "doppia", "price": 120 },
-    { "id": 42, "hotelId": 22, "number": "2201", "type": "suite", "price": 240 },
-    { "id": 43, "hotelId": 22, "number": "2202", "type": "doppia", "price": 150 },
-    { "id": 44, "hotelId": 23, "number": "2301", "type": "suite", "price": 260 },
-    { "id": 45, "hotelId": 23, "number": "2302", "type": "doppia", "price": 150 }
+    {
+      "id": 1,
+      "hotelId": 1,
+      "number": "101",
+      "type": "singola",
+      "price": 80
+    },
+    {
+      "id": 2,
+      "hotelId": 1,
+      "number": "102",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 3,
+      "hotelId": 2,
+      "number": "201",
+      "type": "suite",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "hotelId": 2,
+      "number": "202",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 5,
+      "hotelId": 3,
+      "number": "301",
+      "type": "singola",
+      "price": 70
+    },
+    {
+      "id": 6,
+      "hotelId": 4,
+      "number": "401",
+      "type": "singola",
+      "price": 90
+    },
+    {
+      "id": 7,
+      "hotelId": 4,
+      "number": "402",
+      "type": "doppia",
+      "price": 140
+    },
+    {
+      "id": 8,
+      "hotelId": 5,
+      "number": "501",
+      "type": "singola",
+      "price": 75
+    },
+    {
+      "id": 9,
+      "hotelId": 5,
+      "number": "502",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 10,
+      "hotelId": 6,
+      "number": "601",
+      "type": "suite",
+      "price": 260
+    },
+    {
+      "id": 11,
+      "hotelId": 6,
+      "number": "602",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 12,
+      "hotelId": 7,
+      "number": "701",
+      "type": "singola",
+      "price": 80
+    },
+    {
+      "id": 13,
+      "hotelId": 7,
+      "number": "702",
+      "type": "doppia",
+      "price": 130
+    },
+    {
+      "id": 14,
+      "hotelId": 8,
+      "number": "801",
+      "type": "suite",
+      "price": 220
+    },
+    {
+      "id": 15,
+      "hotelId": 8,
+      "number": "802",
+      "type": "doppia",
+      "price": 140
+    },
+    {
+      "id": 16,
+      "hotelId": 9,
+      "number": "901",
+      "type": "singola",
+      "price": 70
+    },
+    {
+      "id": 17,
+      "hotelId": 9,
+      "number": "902",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 18,
+      "hotelId": 10,
+      "number": "1001",
+      "type": "suite",
+      "price": 200
+    },
+    {
+      "id": 19,
+      "hotelId": 10,
+      "number": "1002",
+      "type": "doppia",
+      "price": 130
+    },
+    {
+      "id": 20,
+      "hotelId": 11,
+      "number": "1101",
+      "type": "singola",
+      "price": 80
+    },
+    {
+      "id": 21,
+      "hotelId": 11,
+      "number": "1102",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 22,
+      "hotelId": 12,
+      "number": "1201",
+      "type": "suite",
+      "price": 240
+    },
+    {
+      "id": 23,
+      "hotelId": 12,
+      "number": "1202",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 24,
+      "hotelId": 13,
+      "number": "1301",
+      "type": "suite",
+      "price": 260
+    },
+    {
+      "id": 25,
+      "hotelId": 13,
+      "number": "1302",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 26,
+      "hotelId": 14,
+      "number": "1401",
+      "type": "singola",
+      "price": 70
+    },
+    {
+      "id": 27,
+      "hotelId": 14,
+      "number": "1402",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 28,
+      "hotelId": 15,
+      "number": "1501",
+      "type": "suite",
+      "price": 220
+    },
+    {
+      "id": 29,
+      "hotelId": 15,
+      "number": "1502",
+      "type": "doppia",
+      "price": 140
+    },
+    {
+      "id": 30,
+      "hotelId": 16,
+      "number": "1601",
+      "type": "singola",
+      "price": 75
+    },
+    {
+      "id": 31,
+      "hotelId": 16,
+      "number": "1602",
+      "type": "doppia",
+      "price": 130
+    },
+    {
+      "id": 32,
+      "hotelId": 17,
+      "number": "1701",
+      "type": "suite",
+      "price": 230
+    },
+    {
+      "id": 33,
+      "hotelId": 17,
+      "number": "1702",
+      "type": "doppia",
+      "price": 140
+    },
+    {
+      "id": 34,
+      "hotelId": 18,
+      "number": "1801",
+      "type": "singola",
+      "price": 70
+    },
+    {
+      "id": 35,
+      "hotelId": 18,
+      "number": "1802",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 36,
+      "hotelId": 19,
+      "number": "1901",
+      "type": "singola",
+      "price": 75
+    },
+    {
+      "id": 37,
+      "hotelId": 19,
+      "number": "1902",
+      "type": "doppia",
+      "price": 130
+    },
+    {
+      "id": 38,
+      "hotelId": 20,
+      "number": "2001",
+      "type": "suite",
+      "price": 220
+    },
+    {
+      "id": 39,
+      "hotelId": 20,
+      "number": "2002",
+      "type": "doppia",
+      "price": 140
+    },
+    {
+      "id": 40,
+      "hotelId": 21,
+      "number": "2101",
+      "type": "singola",
+      "price": 70
+    },
+    {
+      "id": 41,
+      "hotelId": 21,
+      "number": "2102",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 42,
+      "hotelId": 22,
+      "number": "2201",
+      "type": "suite",
+      "price": 240
+    },
+    {
+      "id": 43,
+      "hotelId": 22,
+      "number": "2202",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 44,
+      "hotelId": 23,
+      "number": "2301",
+      "type": "suite",
+      "price": 260
+    },
+    {
+      "id": 45,
+      "hotelId": 23,
+      "number": "2302",
+      "type": "doppia",
+      "price": 150
+    }
   ],
   "users": [
-    { "id": 1, "name": "Mario Rossi", "email": "mario.rossi@example.com", "password": "mario123" },
-    { "id": 2, "name": "Anna Bianchi", "email": "anna.bianchi@example.com", "password": "anna123" },
-    { "id": 3, "name": "Luca Verdi", "email": "luca.verdi@example.com", "password": "luca123" },
-    { "id": 1756814603210, "name": "Luca Bottigliero", "email": "luca2399@tiscali.it", "password": "luca234" }
+    {
+      "id": 1,
+      "name": "Mario Rossi",
+      "email": "mario.rossi@example.com",
+      "password": "mario123"
+    },
+    {
+      "id": 2,
+      "name": "Anna Bianchi",
+      "email": "anna.bianchi@example.com",
+      "password": "anna123"
+    },
+    {
+      "id": 3,
+      "name": "Luca Verdi",
+      "email": "luca.verdi@example.com",
+      "password": "luca123"
+    },
+    {
+      "id": 1756814603210,
+      "name": "Luca Bottigliero",
+      "email": "luca2399@tiscali.it",
+      "password": "luca123"
+    }
   ],
   "bookings": [
-    { "id": 1, "userId": 1, "roomId": 2, "from": "2025-09-10", "to": "2025-09-15" },
-    { "id": 2, "userId": 2, "roomId": 3, "from": "2025-09-05", "to": "2025-09-07" }
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 2,
+      "from": "2025-09-10",
+      "to": "2025-09-15"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "roomId": 3,
+      "from": "2025-09-05",
+      "to": "2025-09-07"
+    }
   ]
 }
