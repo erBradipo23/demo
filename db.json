@@ -1,44 +1,107 @@
 {
   "hotels": [
-    { 
-      "id": 1, 
-      "name": "Hotel Roma", 
-      "city": "Roma", 
+    {
+      "id": 1,
+      "name": "Hotel Roma",
+      "city": "Roma",
       "stars": 4,
       "imageUrl": "https://picsum.photos/400/300?random=1",
       "description": "Situato nel cuore di Roma, vicino ai principali monumenti. Camere moderne e confortevoli."
     },
-    { 
-      "id": 2, 
-      "name": "Grand Milano", 
-      "city": "Milano", 
+    {
+      "id": 2,
+      "name": "Grand Milano",
+      "city": "Milano",
       "stars": 5,
       "imageUrl": "https://picsum.photos/400/300?random=2",
       "description": "Hotel elegante a Milano, perfetto per viaggi d'affari e shopping. Servizi di lusso e SPA."
     },
-    { 
-      "id": 3, 
-      "name": "Torino Inn", 
-      "city": "Torino", 
+    {
+      "id": 3,
+      "name": "Torino Inn",
+      "city": "Torino",
       "stars": 3,
       "imageUrl": "https://picsum.photos/400/300?random=3",
       "description": "Accogliente hotel a Torino, ideale per famiglie e viaggiatori in cerca di comfort a prezzi convenienti."
     }
   ],
   "rooms": [
-    { "id": 1, "hotelId": 1, "number": "101", "type": "singola", "price": 80 },
-    { "id": 2, "hotelId": 1, "number": "102", "type": "doppia", "price": 120 },
-    { "id": 3, "hotelId": 2, "number": "201", "type": "suite", "price": 250 },
-    { "id": 4, "hotelId": 2, "number": "202", "type": "doppia", "price": 150 },
-    { "id": 5, "hotelId": 3, "number": "301", "type": "singola", "price": 70 }
+    {
+      "id": 1,
+      "hotelId": 1,
+      "number": "101",
+      "type": "singola",
+      "price": 80
+    },
+    {
+      "id": 2,
+      "hotelId": 1,
+      "number": "102",
+      "type": "doppia",
+      "price": 120
+    },
+    {
+      "id": 3,
+      "hotelId": 2,
+      "number": "201",
+      "type": "suite",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "hotelId": 2,
+      "number": "202",
+      "type": "doppia",
+      "price": 150
+    },
+    {
+      "id": 5,
+      "hotelId": 3,
+      "number": "301",
+      "type": "singola",
+      "price": 70
+    }
   ],
   "users": [
-    { "id": 1, "name": "Mario Rossi", "email": "mario.rossi@example.com", "password": "mario123" },
-    { "id": 2, "name": "Anna Bianchi", "email": "anna.bianchi@example.com", "password": "anna123" },
-    { "id": 3, "name": "Luca Verdi", "email": "luca.verdi@example.com", "password": "luca123" }
+    {
+      "id": 1,
+      "name": "Mario Rossi",
+      "email": "mario.rossi@example.com",
+      "password": "mario123"
+    },
+    {
+      "id": 2,
+      "name": "Anna Bianchi",
+      "email": "anna.bianchi@example.com",
+      "password": "anna123"
+    },
+    {
+      "id": 3,
+      "name": "Luca Verdi",
+      "email": "luca.verdi@example.com",
+      "password": "luca123"
+    },
+    {
+      "id": 1756814603210,
+      "name": "Luca Bottigliero",
+      "email": "luca2399@tiscali.it",
+      "password": "luca234"
+    }
   ],
   "bookings": [
-    { "id": 1, "userId": 1, "roomId": 2, "from": "2025-09-10", "to": "2025-09-15" },
-    { "id": 2, "userId": 2, "roomId": 3, "from": "2025-09-05", "to": "2025-09-07" }
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 2,
+      "from": "2025-09-10",
+      "to": "2025-09-15"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "roomId": 3,
+      "from": "2025-09-05",
+      "to": "2025-09-07"
+    }
   ]
 }
