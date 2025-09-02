@@ -1,8 +1,26 @@
 {
   "hotels": [
-    { "id": 1, "name": "Hotel Roma", "city": "Roma", "stars": 4 },
-    { "id": 2, "name": "Grand Milano", "city": "Milano", "stars": 5 },
-    { "id": 3, "name": "Torino Inn", "city": "Torino", "stars": 3 }
+    { 
+      "id": 1, 
+      "name": "Hotel Roma", 
+      "city": "Roma", 
+      "stars": 4,
+      "imageUrl": "https://source.unsplash.com/400x300/?rome,hotel"
+    },
+    { 
+      "id": 2, 
+      "name": "Grand Milano", 
+      "city": "Milano", 
+      "stars": 5,
+      "imageUrl": "https://source.unsplash.com/400x300/?milan,hotel"
+    },
+    { 
+      "id": 3, 
+      "name": "Torino Inn", 
+      "city": "Torino", 
+      "stars": 3,
+      "imageUrl": "https://source.unsplash.com/400x300/?turin,hotel"
+    }
   ],
   "rooms": [
     { "id": 1, "hotelId": 1, "number": "101", "type": "singola", "price": 80 },
@@ -12,9 +30,9 @@
     { "id": 5, "hotelId": 3, "number": "301", "type": "singola", "price": 70 }
   ],
   "users": [
-    { "id": 1, "name": "Mario Rossi", "email": "mario.rossi@example.com" },
-    { "id": 2, "name": "Anna Bianchi", "email": "anna.bianchi@example.com" },
-    { "id": 3, "name": "Luca Verdi", "email": "luca.verdi@example.com" }
+    { "id": 1, "name": "Mario Rossi", "email": "mario.rossi@example.com", "password": "mario123" },
+    { "id": 2, "name": "Anna Bianchi", "email": "anna.bianchi@example.com", "password": "anna123" },
+    { "id": 3, "name": "Luca Verdi", "email": "luca.verdi@example.com", "password": "luca123" }
   ],
   "bookings": [
     { "id": 1, "userId": 1, "roomId": 2, "from": "2025-09-10", "to": "2025-09-15" },
