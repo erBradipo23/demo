@@ -5,21 +5,24 @@
       "name": "Hotel Roma", 
       "city": "Roma", 
       "stars": 4,
-      "imageUrl": "https://source.unsplash.com/400x300/?rome,hotel"
+      "imageUrl": "https://picsum.photos/400/300?random=1",
+      "description": "Situato nel cuore di Roma, vicino ai principali monumenti. Camere moderne e confortevoli."
     },
     { 
       "id": 2, 
       "name": "Grand Milano", 
       "city": "Milano", 
       "stars": 5,
-      "imageUrl": "https://source.unsplash.com/400x300/?milan,hotel"
+      "imageUrl": "https://picsum.photos/400/300?random=2",
+      "description": "Hotel elegante a Milano, perfetto per viaggi d'affari e shopping. Servizi di lusso e SPA."
     },
     { 
       "id": 3, 
       "name": "Torino Inn", 
       "city": "Torino", 
       "stars": 3,
-      "imageUrl": "https://source.unsplash.com/400x300/?turin,hotel"
+      "imageUrl": "https://picsum.photos/400/300?random=3",
+      "description": "Accogliente hotel a Torino, ideale per famiglie e viaggiatori in cerca di comfort a prezzi convenienti."
     }
   ],
   "rooms": [
